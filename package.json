@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/EdsonLuiz/natours#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.11.0"
+    "autoprefixer": "^9.4.4",
+    "parcel-bundler": "^1.11.0",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.15.3"
   }
 }
