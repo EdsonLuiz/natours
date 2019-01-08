@@ -25,24 +25,53 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient( 
-    to right bottom, 
-    rgba(124, 213, 0, 0.7), 
-    rgba(39, 179, 132, 0.7)), 
-    url('../img/hero.jpg');
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(124, 213, 0, 0.7),
+      rgba(39, 179, 132, 0.7)
+    ),
+    url("../img/hero.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
 
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100% );
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-.logo-box {
+.top-header-group {
+  background-color: rgba(0, 0, 0, 0.24);
+  display: grid;
+  padding: 40px;
+}
+
+.midle-header-group {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.logo{
+.logo {
   height: 35px;
+}
+
+.heading-primary {
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  height: 100%;
+  width: 100%;
+}
+
+.heading-primary-main {
+  font-size: 60px;
+  font-weight: 400;
+  display: block;
+  letter-spacing: 34px;
+}
+
+.heading-primary-sub {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17px;
+  display: block;
 }
