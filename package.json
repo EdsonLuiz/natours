@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Praticando SASS",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdsonLuiz/natours.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdsonLuiz/natours/issues"
+  },
+  "homepage": "https://github.com/EdsonLuiz/natours#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  }
+}
